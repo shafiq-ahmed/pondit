@@ -13,6 +13,10 @@ public class User implements Serializable {
     @Id
     @Column(name = "id")
     private Long id;
+    @Column(name="name")
+    private String name;
+    @Column(name="password")
+    private String password;
 
     public Long getId() {
         return id;
